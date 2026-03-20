@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Roboto;
+}
+header {
+    flex: 1;
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+header h1 {
+    font-size: 48px;
+    margin: 0;
+}
+header h3 {
+    position-anchor: --a3;
+    position: absolute;
+    position-area: top span-right;
+    font-size: 24px;
+    margin: 0;
+}
+header p,
+a {
+    margin: 0;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+.main-card {
+    anchor-name: --a3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 40%;
+}
+.main-card button {
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 8px 12px;
+}
+.main-card button:hover {
+    background-color: hsl(217, 91%, 55%);
+}
+.main-card button:active {
+    background-color: hsl(217, 91%, 50%);
+}
+.links {
+    margin-bottom: 10px;
+    position: absolute;
+    position-anchor: --a2;
+    position-area: top span-left;
+}
+.links a {
+    margin-left: 10px;
+}
+.links a:hover {
+    color: hsl(220, 13%, 81%);
+}
+.placeholder-img {
+    anchor-name: --a2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(220, 13%, 50%);
+    padding: 60px 100px;
+}
+main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+main h3 {
+    margin-top: 10px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+main p {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.illustrationContainer {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+.illustrationContainer > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.illustration {
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+}
+.illustrationContainer p {
+    width: 50%;
+}
+
+section {
+    flex: 1;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quote-text {
+    width: 55%;
+    anchor-name: --a1;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+}
+.quote-autor {
+    position-anchor: --a1;
+    position: absolute;
+    position-area: bottom span-left;
+    margin-bottom: 10px;
+}
+footer {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+}
+.card-container {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    background-color: #3882f6;
+    display: flex;
+    color: white;
+    padding: 30px 120px;
+    justify-self: center;
+    align-self: center;
+    border-radius: 5px;
+    gap: 80px;
+}
+.card h4,
+p {
+    margin: 0;
+}
+
+.card-btn {
+    background-color: #3882f6;
+    color: white;
+    border: 1px solid white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card-btn:hover {
+    background-color: hsl(217, 91%, 55%);
+}
+.card-btn:active {
+    background-color: hsl(217, 91%, 50%);
+}
+.copyrights {
+    padding-block: 20px;
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+}
